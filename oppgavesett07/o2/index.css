@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+#kart {
+    width: 100vw;
+    height: 100vh;
+}
+
+.bruktmarker {
+    width: 40px;
+    height: 40px;
+    background-image: url("./img/fretex.jpg");
+    background-size: contain;
+}
+
+.pop {
+    width: 100%;
+}

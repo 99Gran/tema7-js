@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O1</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div id="kart"></div>
+
+    <div id="knapper">
+        <button data-mode="mapbox://styles/mapbox/dark-v10">Natt</button>
+        <button data-mode="mapbox://styles/mapbox/streets-v11">Dag</button>
+        <button data-mode="mapbox://styles/mapbox/satellite-v9">Satellitt</button>
+    </div>
+
+    <div id="flyKnapper">
+        <button data-lng="10.698545" data-lat="59.920033">Fly hjem</button>
+        <button data-lng="10.268562" data-lat="59.561048">Fly til Ine</button>
+    </div>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <script src="index.js"></script>
+</body>
+</html>
