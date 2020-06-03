@@ -8,8 +8,6 @@ body {
     box-sizing: border-box;
     background: rgb(255,0,212);
     background: linear-gradient(90deg, rgba(255,0,212,1) 0%, rgba(0,221,255,1) 100%);
-    /*background-size: contain;*/
-
 }
 
 h1 {
